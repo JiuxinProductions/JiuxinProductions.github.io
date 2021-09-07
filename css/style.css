@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.6rem;
+}
+
+nav h1 {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2rem;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}

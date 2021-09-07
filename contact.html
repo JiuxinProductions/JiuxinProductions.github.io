@@ -6,6 +6,7 @@
         <title>Jiuxin Productions</title>
 		<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Open+Sans&family=Ubuntu+Mono&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	</head>
 	<body>
 		<nav>
@@ -15,7 +16,19 @@
 			<div><a href="contact.html">Contact</a></div>
 		</nav>
         <main>
-			<p>Demos</p>
+			<form action="https://formspree.io/f/xpzkkogl" method="POST">
+			<h2>Contact Form</h2>
+			<label>Name: <span>*</span></label>
+			<input type="text" name="name" placeholder="Name"/>
+			<label>Email: <span>*</span></label>
+			<input type="email" name="email" placeholder="Email"/>
+			<label>Phone: <span>*</span></label>
+			<input type="text" name="phone" placeholder="10 Digit Phone Number"/>
+			<label>Message:</label>
+			<textarea name="message" placeholder="Message......."></textarea>
+			<div class="g-recaptcha" data-sitekey="6Lf38kwcAAAAAEqbYtQVXhFXPEUr3rY1oTpRVH-A"></div>
+			<input type="submit" value="Send Message"/>
+			</form>
 		</main>
 		<footer>
             <hr>
