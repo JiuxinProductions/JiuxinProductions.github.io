@@ -11,24 +11,36 @@
 	<body>
 		<nav>
 			<h1><a href="index.html">Jiuxin Productions</a></h1>
-			<div><a href="index.html">Demo</a></div>
-			<div><a href="about.html">About</a></div>
-			<div><a href="contact.html">Contact</a></div>
+			<div>
+				<a href="index.html">Demo</a>
+				<a href="about.html">About</a>
+				<a href="contact.html">Contact</a>
+			</div>
+			<br/>
 		</nav>
         <main>
-			<form action="https://formspree.io/f/xpzkkogl" method="POST">
-			<h2>Contact Form</h2>
-			<label>Name: <span>*</span></label>
-			<input type="text" name="name" placeholder="Name"/>
-			<label>Email: <span>*</span></label>
-			<input type="email" name="email" placeholder="Email"/>
-			<label>Phone: <span>*</span></label>
-			<input type="text" name="phone" placeholder="10 Digit Phone Number"/>
-			<label>Message:</label>
-			<textarea name="message" placeholder="Message......."></textarea>
-			<div class="g-recaptcha" data-sitekey="6Lf38kwcAAAAAEqbYtQVXhFXPEUr3rY1oTpRVH-A"></div>
-			<input type="submit" value="Send Message"/>
-			</form>
+			<div class="contact">
+				<form action="https://formspree.io/f/xpzkkogl" method="POST">
+				<h2>Contact Form</h2>
+				<label>Name: <span>*</span></label>
+				<br/>
+				<input type="text" name="name" placeholder="Name" size="72"/>
+				<br/>
+				<label>Email: <span>*</span></label>
+				<br/>
+				<input type="email" name="email" placeholder="Email" size="72"/>
+				<br/>
+				<label>Phone: <span>*</span></label>
+				<br/>
+				<input type="text" name="phone" placeholder="10 Digit Phone Number" size="72"/>
+				<br/>
+				<label>Message:</label>
+				<br/>
+				<textarea name="message" placeholder="Message......." rows="8" cols="72"></textarea>
+				<div class="g-recaptcha" data-sitekey="6Lf38kwcAAAAAEqbYtQVXhFXPEUr3rY1oTpRVH-A"></div>
+				<input type="submit" value="Send Message"/>
+				</form>
+			</div>
 		</main>
 		<footer>
             <hr>
